@@ -1,0 +1,130 @@
+.mean{
+    background-image: url('IMAGES/img2.jpg');
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Login-block{
+    background: transparent;
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(7px); /* new CSS Propertie*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+    padding-bottom: 20px;
+}
+.Login{
+    text-align: center;
+    margin-bottom: 30px;
+}
+h1{
+    filter: drop-shadow(0px 0px 1px rgb(0, 0, 0)); /* new CSS Propertie*/
+}
+.Username-row{
+    margin-bottom: 12px;
+}
+::placeholder{
+    color: white;
+    filter: drop-shadow(0px 0px 0.3px rgb(0, 0, 0)); /* new CSS Propertie*/
+}
+.Username{
+    background-color: transparent;
+    color: black;
+    width: 200px;
+    border-style: solid;
+    border-color: rgb(194, 194, 194);
+    border-width: 1px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.Username:focus{  /* new CSS Propertie*/
+    outline: none;
+}
+.Password-row{
+    margin-bottom: 8px;
+}
+.Password{
+    background-color: transparent;
+    color: black;
+    width: 200px;
+    border-style: solid;
+    border-color: rgb(194, 194, 194);
+    border-width: 1px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.Password:focus{  /* new CSS Propertie*/
+    outline: none;
+}
+.Reme-For{
+    color: white;
+    filter: drop-shadow(0px 0px 1px rgb(0, 0, 0)); /* new CSS Propertie*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 10px;
+    margin-bottom: 12px;
+}
+.label{
+    display: flex;
+    align-items: center;
+}
+.checkbox{
+    accent-color: rgb(0, 216, 173); /* new CSS Propertie*/
+}
+.Forgot-password{
+    color: white;
+    filter: drop-shadow(0px 0px 0.1px rgb(0, 0, 0)); /* new CSS Propertie*/
+    text-decoration: none;
+}
+.Forgot-password:hover{
+    text-decoration: underline;
+}
+.Login-botton{
+    font-size: 16px;
+    width: 231px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: filter 0.3s , text-shadow 0.3s , background-color 0.3s , color 0.3s ;
+}
+.Login-botton:hover{
+    filter: drop-shadow(0px 0px 2px rgb(0, 216, 173));  /* new CSS Propertie*/
+    text-shadow: 0px 0px 0.5px rgb(0, 216, 173);  /* new CSS Propertie*/
+}
+.Login-botton:active{
+    background-color: transparent;
+    color: white;
+}
+.account{
+    font-size: 12px;
+    filter: drop-shadow(0px 0px 1px rgb(0, 0, 0)); /* new CSS Propertie*/
+}
+.Register{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.Register:hover{
+    text-decoration: underline;
+}
